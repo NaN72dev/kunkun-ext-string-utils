@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.kunkun.sh",
   "name": "kunkun-ext-string-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "type": "module",
   "repository": "https://github.com/NaN72dev/kunkun-ext-string-utils",
@@ -74,8 +74,7 @@
   },
   "scripts": {
     "dev": "bun build.ts dev",
-    "build": "bun build.ts",
-    "publish": "npm publish --provenance"
+    "build": "bun build.ts"
   },
   "dependencies": {
     "@kksh/api": "0.1.3",

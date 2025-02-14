@@ -1,28 +1,10 @@
-# Kunkun Template UI Extension
+# Kunkun String Utils Extension
 
-This is a template for a template UI extension. (UI follows pre-defined template)
+This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set of string utility functions.
 
-[./src/index.ts](./src/index.ts) is the default entrypoint for the extension. You can import any other files in this file, but the build process will bundle them into a single file.
+Currently supported functions:
 
-## Pros and Cons
-
-This type of extension is suitable for simple use cases, such as a list or form. All components are pre-defined, so there is not much room for customization. If you want more flexibility on the UI, consider using [Custom UI Extension](https://docs.kunkun.sh/extensions/custom-ui-ext/), which requires some frontend knowledge but gives you full control over the UI.
-
-Read documentation at https://docs.kunkun.sh/extensions/worker-template/
-
-Make sure you understand what this type of extension is capable of.
-
-### Pros
-
-- Simple to develop, no need for any frontend knowledge.
-- Small bundle size (~40KB)
-  - [Custom UI Extension](https://docs.kunkun.sh/extensions/custom-ui-ext/) are usually larger than 300KB.
-
-### Cons
-
-- Limited UI customization. Not suitable for complex use cases.
-
-Consider [Custom UI Extension](https://docs.kunkun.sh/extensions/custom-ui-ext/) if you need more complex UI.
+![image](./image.png)
 
 ## Development
 
@@ -85,5 +67,6 @@ npx kksh@latest verify --publish # Verify some basic settings before publishing
 See [Documentation](https://docs.kunkun.sh/guides/extensions/publish/design/) for more details on how to publish your extension. You will need to publish your extension package to npm or jsr first with GitHub actioin, then register it on Kunkun's website.
 
 # TODO
+
 [ ] padding
 [ ] Truncate
