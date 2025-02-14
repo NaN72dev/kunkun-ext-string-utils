@@ -33,6 +33,11 @@
         "name": "Convert clipboard text to kebab-case (dash-case)",
         "main": "dist/kebab.js",
         "cmds": []
+      },
+      {
+        "name": "Convert clipboard text to lower case",
+        "main": "dist/lower-case.js",
+        "cmds": []
       }
     ]
   },
