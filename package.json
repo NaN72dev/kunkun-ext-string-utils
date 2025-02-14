@@ -25,7 +25,7 @@
         "cmds": []
       },
       {
-        "name": "Convert clipboard text to Capitalize",
+        "name": "Convert clipboard text to Capitalize text",
         "main": "dist/capitalize.js",
         "cmds": []
       },
@@ -42,6 +42,11 @@
       {
         "name": "Convert clipboard text to snake_case",
         "main": "dist/snake-case.js",
+        "cmds": []
+      },
+      {
+        "name": "Convert clipboard text to Start Case",
+        "main": "dist/start-case.js",
         "cmds": []
       }
     ]
