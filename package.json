@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "type": "module",
+  "repository": "https://github.com/NaN72dev/kunkun-ext-string-utils",
   "kunkun": {
     "name": "String Utils",
     "shortDescription": "A string utility headless Extension",
@@ -73,7 +74,8 @@
   },
   "scripts": {
     "dev": "bun build.ts dev",
-    "build": "bun build.ts"
+    "build": "bun build.ts",
+    "publish": "npm publish --provenance"
   },
   "dependencies": {
     "@kksh/api": "0.1.3",
