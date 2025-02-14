@@ -48,6 +48,11 @@
         "name": "Convert clipboard text to Start Case",
         "main": "dist/start-case.js",
         "cmds": []
+      },
+      {
+        "name": "Convert clipboard text to UPPER CASE",
+        "main": "dist/to-upper.js",
+        "cmds": []
       }
     ]
   },
