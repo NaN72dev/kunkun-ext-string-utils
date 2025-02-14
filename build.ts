@@ -6,6 +6,7 @@ import {$} from "bun";
 const entrypoints = [
 	"./src/camel-case.ts",
 	"./src/capitalize.ts",
+	"./src/kebab.ts",
 ];
 
 async function build() {

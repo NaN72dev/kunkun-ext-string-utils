@@ -28,6 +28,11 @@
         "name": "Convert clipboard text to Capitalize",
         "main": "dist/capitalize.js",
         "cmds": []
+      },
+      {
+        "name": "Convert clipboard text to kebab-case (dash-case)",
+        "main": "dist/kebab.js",
+        "cmds": []
       }
     ]
   },
