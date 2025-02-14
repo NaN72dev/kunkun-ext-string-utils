@@ -21,7 +21,7 @@
     "headlessCmds": [
       {
         "name": "Convert clipboard text to Camel Case",
-        "main": "dist/index.js",
+        "main": "dist/camel-case.js",
         "cmds": []
       }
     ]

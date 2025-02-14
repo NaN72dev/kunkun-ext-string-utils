@@ -1,9 +1,9 @@
-import { watch } from "fs"
-import { join } from "path"
-import { refreshTemplateWorkerCommand } from "@kksh/api/dev"
-import { $ } from "bun"
+import {watch} from "fs";
+import {join} from "path";
+import {refreshTemplateWorkerCommand} from "@kksh/api/dev";
+import {$} from "bun";
 
-const entrypoints = ["./src/index.ts"]
+const entrypoints = ["./src/camel-case.ts"];
 
 async function build() {
 	try {
