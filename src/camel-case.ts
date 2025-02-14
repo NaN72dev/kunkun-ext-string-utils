@@ -1,5 +1,5 @@
 import {expose} from "@kksh/api/headless";
-import camelCase from "lodash/camelcase";
+import camelCase from "lodash/camelCase";
 import {BaseExt} from "./base";
 
 class CamelCaseExt extends BaseExt {

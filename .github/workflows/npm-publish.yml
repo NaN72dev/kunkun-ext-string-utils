@@ -5,18 +5,23 @@ on:
 
 jobs:
   publish-npm:
+    environment: prod
     runs-on: ubuntu-latest
     permissions:
       contents: read
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v3 # docs https://pnpm.io/continuous-integration#github-actions
+      - uses: oven-sh/setup-bun@v2
         with:
-            version: 9  # Optional: specify a pnpm version
-      - run: pnpm install
-      - run: pnpm build
+          bun-version: latest
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - run: bun install
+      - run: bun run build
       - name: Publish to NPM
         run: npm publish --provenance --access public
         env:

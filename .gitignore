@@ -119,6 +119,7 @@ out
 
 .nuxt
 dist
+build.js
 
 # Gatsby files
 
@@ -174,4 +175,3 @@ dist
 # Finder (MacOS) folder config
 .DS_Store
 extensions_support/
-
