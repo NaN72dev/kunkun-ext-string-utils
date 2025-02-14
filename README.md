@@ -83,3 +83,6 @@ npx kksh@latest verify --publish # Verify some basic settings before publishing
 ```
 
 See [Documentation](https://docs.kunkun.sh/guides/extensions/publish/design/) for more details on how to publish your extension. You will need to publish your extension package to npm or jsr first with GitHub actioin, then register it on Kunkun's website.
+
+# TODO
+[ ] padding

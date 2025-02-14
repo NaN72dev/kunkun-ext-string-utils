@@ -8,6 +8,7 @@ const entrypoints = [
 	"./src/capitalize.ts",
 	"./src/kebab.ts",
 	"./src/lower-case.ts",
+	"./src/snake-case.ts",
 ];
 
 async function build() {

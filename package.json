@@ -38,6 +38,11 @@
         "name": "Convert clipboard text to lower case",
         "main": "dist/lower-case.js",
         "cmds": []
+      },
+      {
+        "name": "Convert clipboard text to snake_case",
+        "main": "dist/snake-case.js",
+        "cmds": []
       }
     ]
   },
