@@ -11,9 +11,12 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v2
-      - run: bun install
-      - run: bun run build
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3 # docs https://pnpm.io/continuous-integration#github-actions
+        with:
+            version: 9  # Optional: specify a pnpm version
+      - run: pnpm install
+      - run: pnpm build
       - name: Publish to NPM
         run: npm publish --provenance --access public
         env:

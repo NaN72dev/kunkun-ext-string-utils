@@ -74,7 +74,7 @@
   },
   "scripts": {
     "dev": "bun build.ts dev",
-    "build": "bun build.ts",
+    "build": "tsc build.ts",
     "publish": "npm publish --provenance"
   },
   "dependencies": {
