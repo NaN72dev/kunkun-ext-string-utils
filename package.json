@@ -1,7 +1,7 @@
 {
   "$schema": "https://schema.kunkun.sh",
   "name": "kunkun-ext-string-utils",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "repository": "https://github.com/NaN72dev/kunkun-ext-string-utils",
