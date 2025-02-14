@@ -63,6 +63,11 @@
         "name": "Trim the end of clipboard text",
         "main": "dist/trim-end.js",
         "cmds": []
+      },
+      {
+        "name": "Trim the start of clipboard text",
+        "main": "dist/trim-start.js",
+        "cmds": []
       }
     ]
   },

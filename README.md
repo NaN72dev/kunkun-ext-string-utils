@@ -86,3 +86,4 @@ See [Documentation](https://docs.kunkun.sh/guides/extensions/publish/design/) fo
 
 # TODO
 [ ] padding
+[ ] Truncate
