@@ -1,10 +1,12 @@
 # Kunkun String Utils Extension
 
+[![NPM Package Publish](https://github.com/NaN72dev/kunkun-ext-string-utils/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/NaN72dev/kunkun-ext-string-utils/actions/workflows/npm-publish.yml)
+
 This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set of string utility functions.
 
 Currently supported functions:
 
-![image](./image.png)
+![image](./functions.png)
 
 ## Development
 
