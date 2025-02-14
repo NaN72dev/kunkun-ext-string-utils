@@ -55,8 +55,13 @@
         "cmds": []
       },
       {
-        "name": "Trim clipboard text",
+        "name": "Trim the clipboard text",
         "main": "dist/trim.js",
+        "cmds": []
+      },
+      {
+        "name": "Trim the end of clipboard text",
+        "main": "dist/trim-end.js",
         "cmds": []
       }
     ]
