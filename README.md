@@ -6,7 +6,7 @@ This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set o
 
 Currently supported functions:
 
-![image](./functions.png)
+![image](https://raw.githubusercontent.com/NaN72dev/kunkun-ext-string-utils/refs/heads/main/functions.png)
 
 ## Development
 
