@@ -17,9 +17,6 @@ importers:
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
-      lodash.camelcase:
-        specifier: ^4.3.0
-        version: 4.3.0
       typescript:
         specifier: ^5.0.0
         version: 5.7.3
@@ -724,9 +721,6 @@ packages:
 
   locate-character@3.0.0:
     resolution: {integrity: sha512-SW13ws7BjaeJ6p7Q6CO2nchbYEc3X3J6WrmTTDto7yMPqVSZTUyY5Tjbid+Ab8gLnATtygYtiDIJGQRRn2ZOiA==}
-
-  lodash.camelcase@4.3.0:
-    resolution: {integrity: sha512-TwuEnCnxbc3rAvhf/LbG7tJUDzhqXyFnv3dtzLOPgCG/hODL7WFnsbwktkD7yUV0RrreP/l1PALq/YSg6VvjlA==}
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -1875,8 +1869,6 @@ snapshots:
       - utf-8-validate
 
   locate-character@3.0.0: {}
-
-  lodash.camelcase@4.3.0: {}
 
   lodash@4.17.21: {}
 
