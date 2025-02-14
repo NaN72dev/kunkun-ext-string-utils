@@ -20,8 +20,13 @@
     },
     "headlessCmds": [
       {
-        "name": "Convert clipboard text to Camel Case",
+        "name": "Convert clipboard text to camelCase",
         "main": "dist/camel-case.js",
+        "cmds": []
+      },
+      {
+        "name": "Convert clipboard text to Capitalize",
+        "main": "dist/capitalize.js",
         "cmds": []
       }
     ]

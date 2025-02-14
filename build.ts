@@ -3,7 +3,10 @@ import {join} from "path";
 import {refreshTemplateWorkerCommand} from "@kksh/api/dev";
 import {$} from "bun";
 
-const entrypoints = ["./src/camel-case.ts"];
+const entrypoints = [
+	"./src/camel-case.ts",
+	"./src/capitalize.ts",
+];
 
 async function build() {
 	try {
