@@ -53,6 +53,11 @@
         "name": "Convert clipboard text to UPPER CASE",
         "main": "dist/to-upper.js",
         "cmds": []
+      },
+      {
+        "name": "Trim clipboard text",
+        "main": "dist/trim.js",
+        "cmds": []
       }
     ]
   },

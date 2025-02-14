@@ -11,6 +11,7 @@ const entrypoints = [
 	"./src/snake-case.ts",
 	"./src/start-case.ts",
 	"./src/to-upper.ts",
+	"./src/trim.ts",
 ];
 
 async function build() {
