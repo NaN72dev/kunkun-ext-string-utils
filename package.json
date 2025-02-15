@@ -3,10 +3,11 @@
   "name": "kunkun-ext-string-utils",
   "version": "1.0.2",
   "license": "MIT",
+  "author": "NaN72dev",
   "type": "module",
   "repository": "https://github.com/NaN72dev/kunkun-ext-string-utils",
   "kunkun": {
-    "name": "String Utils",
+    "name": "String Utilities",
     "shortDescription": "A string utility headless Extension",
     "longDescription": "A string utility headless Extension",
     "identifier": "kunkun-ext-string-utils",
@@ -68,6 +69,13 @@
       {
         "name": "Trim the start of clipboard text",
         "main": "dist/trim-start.js",
+        "cmds": []
+      }
+    ],
+    "templateUiCmds": [
+      {
+        "main": "dist/truncate.js",
+        "name": "Truncate a string to a maximum length",
         "cmds": []
       }
     ]
