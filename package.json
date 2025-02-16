@@ -77,6 +77,11 @@
         "main": "dist/truncate.js",
         "name": "Truncate a string to a maximum length",
         "cmds": []
+      },
+      {
+        "main": "dist/pad.js",
+        "name": "Pad a string to a maximum length",
+        "cmds": []
       }
     ]
   },

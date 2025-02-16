@@ -14,7 +14,9 @@ const entrypoints = [
 	"./src/trim.ts",
 	"./src/trim-end.ts",
 	"./src/trim-start.ts",
+
 	"./src/uis/truncate.ts",
+	"./src/uis/pad.ts",
 ];
 
 async function build() {
