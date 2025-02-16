@@ -1,5 +1,13 @@
 # template-ext-string-utils
 
+## 1.0.4
+
+### Patch Changes
+
+- Add padding command
+- Update README
+- Configured GitHub Actions to automatically release new versions on `main` branch
+
 ## 1.0.3
 
 ### Patch Changes

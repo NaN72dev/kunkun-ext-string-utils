@@ -7,9 +7,23 @@
 
 This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set of string utility functions.
 
-Currently supported functions:
+## Currently supported functions:
 
-![image](https://raw.githubusercontent.com/NaN72dev/kunkun-ext-string-utils/refs/heads/main/functions.png)
+### Form
+- Truncate a string to a maximum length
+- Pad a string to a maximum length
+
+### Headless
+- Convert clipboard text to camelCase
+- Convert clipboard text to Capitalize text
+- Convert clipboard text to kebab-case (dash-case)
+- Convert clipboard text to lower case
+- Convert clipboard text to snake_case
+- Convert clipboard text to Start Case
+- Convert clipboard text to UPPER CASE
+- Trim the clipboard text
+- Trim the end of clipboard text
+- Trim the start of clipboard text
 
 ## Development
 
@@ -71,7 +85,22 @@ npx kksh@latest verify --publish # Verify some basic settings before publishing
 
 See [Documentation](https://docs.kunkun.sh/guides/extensions/publish/design/) for more details on how to publish your extension. You will need to publish your extension package to npm or jsr first with GitHub actioin, then register it on Kunkun's website.
 
-# TODO
 
-[ ] padding
-[ ] Truncate
+# TODO
+- [ ] RaNdOm CaSE
+- [ ] Lorem ipsum
+- [ ] Lorem ipsum (Preferences)
+- [ ] Repeat
+- [ ] Replace
+- [ ] Escape HTML
+- [ ] Unescape HTML
+- [ ] URL encode
+- [ ] URL decode
+- [ ] Base64 encode
+- [ ] Base64 decode
+- [ ] Slash escape
+- [ ] Slash unescape
+- [ ] Character count
+- [ ] Word count
+- [ ] Reverse
+- [ ] ROT?
