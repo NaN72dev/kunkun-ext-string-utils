@@ -1,11 +1,14 @@
 # Kunkun String Utilities Extension
+This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set of string utility functions.
 
+[![Kunkun Install](https://img.shields.io/badge/Kunkun-install-blue)](https://kunkun.sh/store/kunkun-ext-string-utils) 
 [![NPM Package Publish](https://github.com/NaN72dev/kunkun-ext-string-utils/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/NaN72dev/kunkun-ext-string-utils/actions/workflows/npm-publish.yml)
+
+![GitHub License](https://img.shields.io/github/license/NaN72dev/kunkun-ext-string-utils)
+![GitHub last commit](https://img.shields.io/github/last-commit/NaN72dev/kunkun-ext-string-utils)
 
 <span class="badge-npmversion"><a href="https://www.npmjs.com/package/kunkun-ext-string-utils" title="View this project on NPM"><img src="https://img.shields.io/npm/v/kunkun-ext-string-utils.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://www.npmjs.com/package/kunkun-ext-string-utils" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/kunkun-ext-string-utils.svg" alt="NPM downloads" /></a></span>
-
-This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set of string utility functions.
 
 ## Currently supported functions:
 
