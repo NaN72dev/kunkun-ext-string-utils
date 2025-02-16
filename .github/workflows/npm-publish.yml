@@ -1,6 +1,10 @@
 name: NPM Package Publish
 
 on:
+  push:
+    branches: [main]
+  release:
+    types: [created]
   workflow_dispatch:
 
 jobs:
@@ -17,12 +21,21 @@ jobs:
           bun-version: latest
       - uses: actions/setup-node@v4
         with:
-          node-version: '22.x'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "22.x"
+          registry-url: "https://registry.npmjs.org"
 
       - run: bun install
       - run: bun run build
-      - name: Publish to NPM
+
+      - name: Check if version is already published
+        run: |
+          PACKAGE_VERSION=$(node -p "require('./package.json').version")
+          PACKAGE_NAME=$(jq -r '.name' package.json)
+          npm view $PACKAGE_NAME@$PACKAGE_VERSION
+        continue-on-error: true
+        id: check_version
+      - name: Publish
+        if: steps.check_version.outcome != 'success'
         run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_KEY}}
