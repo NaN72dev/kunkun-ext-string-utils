@@ -57,6 +57,11 @@
         "cmds": []
       },
       {
+        "name": "Convert clipboard text to RaNDoM caSE",
+        "main": "dist/random-case.js",
+        "cmds": []
+      },
+      {
         "name": "Trim the clipboard text",
         "main": "dist/trim.js",
         "cmds": []
