@@ -1,5 +1,11 @@
 # template-ext-string-utils
 
+## 1.1.0
+
+### Patch Changes
+
+- Add random case command
+
 ## 1.0.4
 
 ### Patch Changes
