@@ -24,6 +24,7 @@ This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set o
 - Convert clipboard text to snake_case
 - Convert clipboard text to Start Case
 - Convert clipboard text to UPPER CASE
+- Convert clipboard text to rAnDoM CasE
 - Trim the clipboard text
 - Trim the end of clipboard text
 - Trim the start of clipboard text
