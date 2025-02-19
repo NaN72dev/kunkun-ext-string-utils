@@ -4,20 +4,20 @@ import {refreshTemplateWorkerCommand} from "@kksh/api/dev";
 import {$} from "bun";
 
 const entrypoints = [
-	"./src/camel-case.ts",
-	"./src/capitalize.ts",
-	"./src/kebab.ts",
-	"./src/lower-case.ts",
-	"./src/snake-case.ts",
-	"./src/start-case.ts",
-	"./src/to-upper.ts",
-	"./src/trim.ts",
-	"./src/trim-end.ts",
-	"./src/trim-start.ts",
-	"./src/random-case.ts",
-	"./src/lorem.ts",
-	"./src/uis/truncate.ts",
-	"./src/uis/pad.ts",
+	"./src/headless/camel-case.ts",
+	"./src/headless/capitalize.ts",
+	"./src/headless/kebab.ts",
+	"./src/headless/lower-case.ts",
+	"./src/headless/snake-case.ts",
+	"./src/headless/start-case.ts",
+	"./src/headless/to-upper.ts",
+	"./src/headless/trim.ts",
+	"./src/headless/trim-end.ts",
+	"./src/headless/trim-start.ts",
+	"./src/headless/random-case.ts",
+	"./src/headless/lorem.ts",
+	"./src/preference/truncate.ts",
+	"./src/preference/pad.ts",
 ];
 
 async function build() {
