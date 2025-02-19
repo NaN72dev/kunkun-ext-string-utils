@@ -15,6 +15,7 @@ const entrypoints = [
 	"./src/trim-end.ts",
 	"./src/trim-start.ts",
 	"./src/random-case.ts",
+	"./src/lorem.ts",
 	"./src/uis/truncate.ts",
 	"./src/uis/pad.ts",
 ];

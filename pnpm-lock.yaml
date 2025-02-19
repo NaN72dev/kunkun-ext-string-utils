@@ -17,6 +17,9 @@ importers:
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
+      lorem-ipsum:
+        specifier: ^2.0.8
+        version: 2.0.8
       typescript:
         specifier: ^5.0.0
         version: 5.7.3
@@ -724,6 +727,11 @@ packages:
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+
+  lorem-ipsum@2.0.8:
+    resolution: {integrity: sha512-5RIwHuCb979RASgCJH0VKERn9cQo/+NcAi2BMe9ddj+gp7hujl6BI+qdOG4nVsLDpwWEJwTVYXNKP6BGgbcoGA==}
+    engines: {node: '>= 8.x', npm: '>= 5.x'}
+    hasBin: true
 
   lru-cache@11.0.2:
     resolution: {integrity: sha512-123qHRfJBmo2jXDbo/a5YOQrJoHF/GNQTLzQ5+IdK5pWpceK17yRc6ozlWd25FxvGKQbIUs91fDFkXmDHTKcyA==}
@@ -1871,6 +1879,10 @@ snapshots:
   locate-character@3.0.0: {}
 
   lodash@4.17.21: {}
+
+  lorem-ipsum@2.0.8:
+    dependencies:
+      commander: 9.5.0
 
   lru-cache@11.0.2: {}
 
