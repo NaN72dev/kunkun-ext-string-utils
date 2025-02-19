@@ -75,6 +75,11 @@
         "name": "Trim the start of clipboard text",
         "main": "dist/trim-start.js",
         "cmds": []
+      },
+      {
+        "main": "dist/lorem.js",
+        "name": "Generate a Lorem Ipsum sentence into your clipboard",
+        "cmds": []
       }
     ],
     "templateUiCmds": [
@@ -86,11 +91,6 @@
       {
         "main": "dist/pad.js",
         "name": "Pad a string to a maximum length",
-        "cmds": []
-      },
-      {
-        "main": "dist/lorem.js",
-        "name": "Generate a Lorem Ipsum sentence into your clipboard",
         "cmds": []
       }
     ]
