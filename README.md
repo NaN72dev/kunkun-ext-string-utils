@@ -28,6 +28,7 @@ This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set o
 - Trim the clipboard text
 - Trim the end of clipboard text
 - Trim the start of clipboard text
+- Generate a Lorem Ipsum sentence into your clipboard
 
 ## Development
 
@@ -91,8 +92,8 @@ See [Documentation](https://docs.kunkun.sh/guides/extensions/publish/design/) fo
 
 
 # TODO
-- [ ] RaNdOm CaSE
-- [ ] Lorem ipsum
+- [x] RaNdOm CaSE
+- [x] Lorem ipsum
 - [ ] Lorem ipsum (Preferences)
 - [ ] Repeat
 - [ ] Replace

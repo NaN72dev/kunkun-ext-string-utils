@@ -1,5 +1,11 @@
 # template-ext-string-utils
 
+## 1.1.1
+
+### Patch Changes
+
+- Add lorem command
+
 ## 1.1.0
 
 ### Patch Changes
