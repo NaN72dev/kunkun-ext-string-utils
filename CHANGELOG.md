@@ -1,6 +1,12 @@
 # template-ext-string-utils
 
-## 1.1.1
+## 1.3.0
+
+### Patch Changes
+
+- Add repeat command
+
+## 1.2.0
 
 ### Patch Changes
 
