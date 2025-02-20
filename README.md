@@ -29,6 +29,7 @@ This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set o
 - Trim the end of clipboard text
 - Trim the start of clipboard text
 - Generate a Lorem Ipsum sentence into your clipboard
+- Repeat a string a given number of times
 
 ## Development
 
