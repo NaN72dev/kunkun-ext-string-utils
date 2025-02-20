@@ -92,6 +92,11 @@
         "main": "dist/pad.js",
         "name": "Pad a string to a maximum length",
         "cmds": []
+      },
+      {
+        "main": "dist/repeat.js",
+        "name": "Repeat a string a given number of times",
+        "cmds": []
       }
     ]
   },

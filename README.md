@@ -94,8 +94,7 @@ See [Documentation](https://docs.kunkun.sh/guides/extensions/publish/design/) fo
 # TODO
 - [x] RaNdOm CaSE
 - [x] Lorem ipsum
-- [ ] Lorem ipsum (Preferences)
-- [ ] Repeat
+- [x] Repeat
 - [ ] Replace
 - [ ] Escape HTML
 - [ ] Unescape HTML

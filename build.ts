@@ -18,6 +18,7 @@ const entrypoints = [
 	"./src/headless/lorem.ts",
 	"./src/preference/truncate.ts",
 	"./src/preference/pad.ts",
+	"./src/preference/repeat.ts",
 ];
 
 async function build() {
