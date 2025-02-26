@@ -25,6 +25,7 @@ This is an extension for [Kunkun](https://docs.kunkun.sh/) that provides a set o
 - Convert clipboard text to Start Case
 - Convert clipboard text to UPPER CASE
 - Convert clipboard text to rAnDoM CasE
+- Reverse clipboard text
 - Trim the clipboard text
 - Trim the end of clipboard text
 - Trim the start of clipboard text
@@ -107,5 +108,5 @@ See [Documentation](https://docs.kunkun.sh/guides/extensions/publish/design/) fo
 - [ ] Slash unescape
 - [ ] Character count
 - [ ] Word count
-- [ ] Reverse
+- [x] Reverse
 - [ ] ROT?

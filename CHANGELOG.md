@@ -1,5 +1,11 @@
 # template-ext-string-utils
 
+## 1.4.0
+
+### Patch Changes
+
+- Add reverse command
+
 ## 1.3.1
 
 ### Patch Changes
