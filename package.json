@@ -80,6 +80,11 @@
         "main": "dist/lorem.js",
         "name": "Generate a Lorem Ipsum sentence into your clipboard",
         "cmds": []
+      },
+      {
+        "name": "Reverse clipboard text",
+        "main": "dist/reverse.js",
+        "cmds": []
       }
     ],
     "templateUiCmds": [

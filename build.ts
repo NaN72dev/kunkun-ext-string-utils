@@ -16,6 +16,7 @@ const entrypoints = [
 	"./src/headless/trim-start.ts",
 	"./src/headless/random-case.ts",
 	"./src/headless/lorem.ts",
+	"./src/headless/reverse.ts",
 	"./src/preference/truncate.ts",
 	"./src/preference/pad.ts",
 	"./src/preference/repeat.ts",
